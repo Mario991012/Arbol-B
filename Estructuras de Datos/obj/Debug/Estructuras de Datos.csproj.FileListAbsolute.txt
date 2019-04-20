@@ -1,0 +1,6 @@
+C:\Users\paulaximena\Desktop\Estructuras de datos\Estructuras de Datos\Estructuras de Datos\obj\Debug\Estructuras de Datos.csprojAssemblyReference.cache
+C:\Users\paulaximena\Desktop\Estructuras de datos\Estructuras de Datos\Estructuras de Datos\obj\Debug\Estructuras de Datos.csproj.CoreCompileInputs.cache
+C:\Users\paulaximena\Desktop\Estructuras de datos\Estructuras de Datos\Estructuras de Datos\bin\Debug\Estructuras de Datos.dll
+C:\Users\paulaximena\Desktop\Estructuras de datos\Estructuras de Datos\Estructuras de Datos\bin\Debug\Estructuras de Datos.pdb
+C:\Users\paulaximena\Desktop\Estructuras de datos\Estructuras de Datos\Estructuras de Datos\obj\Debug\Estructuras de Datos.dll
+C:\Users\paulaximena\Desktop\Estructuras de datos\Estructuras de Datos\Estructuras de Datos\obj\Debug\Estructuras de Datos.pdb
