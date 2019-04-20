@@ -11,7 +11,6 @@ namespace Estructuras_de_Datos
     {
         public NodoB<T> Raiz { get; set; }
         
-
         public ArbolB()
         {
             Raiz = null;
@@ -44,7 +43,6 @@ namespace Estructuras_de_Datos
             }
         }
 
-        
 
         public void Insertar(NodoB<T> Nodo, T valor)
         {
@@ -207,6 +205,38 @@ namespace Estructuras_de_Datos
             Nodo.Valores.Add(valor);
             Nodo.Valores.Sort((x, y) => x.CompareTo(y));
         }
+
+
+        static T val;
+        public T Busqueda(T valor, NodoB<T> Nodo)
+        {
+            bool BEncontrado = false;
+            foreach(var item in Nodo.Valores)
+            {
+                if(item.CompareTo(valor) == 0)
+                {
+                    BEncontrado = true;
+                    val = item;
+                }
+            }
+
+            if(BEncontrado == false && Nodo.Hijos.Count > 0)
+            {
+                NodoB<T> NodoHijo = new NodoB<T>();
+                NodoHijo = Nodo.Hijos[PosicionHijo(Nodo, valor)];
+                return Busqueda(valor, NodoHijo);
+            }
+            else if (Nodo.Hijos.Count == 0)
+            {
+                throw new NotImplementedException();
+            }
+            else
+            {
+                return val;
+            }
+
+        }
+
 
         public IEnumerator<T> GetEnumerator()
         {
